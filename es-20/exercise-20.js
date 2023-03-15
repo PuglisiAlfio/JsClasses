@@ -25,7 +25,7 @@ class AreaCalculator {
     } else if (item instanceof Rectangle) {
       return item.width * item.height;
     } else if (item instanceof Circle) {
-      return (item.radius * item.radius) / Math.PI;
+      return (item.radius * item.radius) * Math.PI;
     }
   }
 }
